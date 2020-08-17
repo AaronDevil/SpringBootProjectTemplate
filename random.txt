@@ -1,3 +1,11 @@
+日志打印 ： Slf4j
+
+逆向工程 ： 默认mp (mybatis可选，配置文件路径：resources\generatorConfig.xml)
+
+数据库 ： redis + mysql
+
+项目目录简介：
+
 1.工程启动类(WhoDoApplication.java)置于com.nopava.whodo包下
 
 2.实体类(domain)置于com.nopava.whodo.domain
@@ -15,3 +23,4 @@
 8.配置信息类(config)置于com.nopava.whodo.config
 
 9.数据传输类(vo)置于com.nopava.whodo.vo
+
