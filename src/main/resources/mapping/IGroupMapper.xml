@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nopava.whodo.mapper.IGroupMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.nopava.whodo.entity.IGroup">
+        <id column="id" property="id" />
+        <result column="now_man_id" property="nowManId" />
+        <result column="pro_man_id" property="proManId" />
+        <result column="next_man_id" property="nextManId" />
+        <result column="create_time" property="createTime" />
+        <result column="updete_time" property="updeteTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, now_man_id, pro_man_id, next_man_id, create_time, updete_time
+    </sql>
+
+</mapper>
